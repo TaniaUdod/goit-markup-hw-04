@@ -167,7 +167,9 @@ img {
     background-position: center;
     background-size: cover;
     max-width: 1440px;
+    height: 600px;
     padding: 188px 0;
+    margin: 0 auto;
 }
 
 .hero-title {
@@ -580,11 +582,6 @@ img {
     border: 1px solid var(--border-accent);
     border-top: none;
     transition: border var(--transition), box-shadow var(--transition);
-}
-
-.projects-link:hover .projects-content,
-.projects-link:focus .projects-content {
-    border: 1px solid var(--primary-white-color);
 }
 
 .projects-subtitle {
